@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Wheeling</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+  <!-- Importing Chart.js library - start -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+  <!-- Importing Chart.js library - end -->
+  
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <!-- <div class="sLogo">
+    <img src="logo/logoo.png" alt="logo" class="imgS">
+
+  </div> -->
+  <div class="back">
+    <input type="image" class="back1" src="others/backkkk.png" onclick="window.location.href='index.html'">
+  </div>
+  <div class="box4">
+    <!-- <br/> -->
+    <!-- <div class="day">
+      <p class="sund">S</p>
+      <p class="week">M</p>
+      <p class="week">T</p>
+      <p class="week">W</p>
+      <p class="week">T</p>
+    </div> -->
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <ul class="whTxt">
+      <li class="sund">S</li>
+      <li class="week">M</li>
+      <li class="week">T</li>
+      <li class="week">W</li>
+      <li class="week">T</li>
+    </ul>
+
+    <!-- Start of code from https://www.chartjs.org/docs/latest/charts/bar.html -->
+    <!-- I editted the code from the link above -->
+    <canvas id="myChart"></canvas>
+    <script>
+      var xValues = [
+        "03/12",
+        "04/12",
+        "05/12",
+        "06/12",
+        "07/12"
+      ];
+      
+      var yValues = [30, 24, 38, 42, 17];
+      
+      var barColors = [
+        'rgb(80, 80, 80)',
+        'rgb(80, 80, 80)',
+        'rgb(80, 80, 80)',
+        'rgb(80, 80, 80)',
+        'rgb(204, 204, 206)'
+      ];
+
+      new Chart("myChart", {
+        type: "bar",
+        data: {
+          labels: xValues,
+          datasets: [{
+            backgroundColor: barColors,
+            data: yValues
+          }]
+        },
+        options: {
+          legend: {display: false},
+          title: {display: false
+          }
+        }
+      });
+    </script>
+    <!-- End of code from https://www.chartjs.org/docs/latest/charts/bar.html -->
+    
+  </div>
+  <br>
+  <div class="box5">
+    <div class="num">
+      <h1 class="numb">14<p class="km">kilometers</p></h1>
+    </div>
+    <div class="barH">
+      <div class="col1">
+        <ul class="colT">
+          <li class="colT1">0</li>
+          <li class="colT2">Target 20km</li>  
+        </ul>
+        <!-- <p class="colT1">0</p>
+        <p class="colT2">Target 20km</p> -->
+      </div>
+      <div class="col2">
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="box6">
+    <img class="b6Img" src="others/fuc.png" oncontextmenu="return false;">
+  </div>
+  <br>
+
+</body>
+
+</html>

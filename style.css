@@ -1,0 +1,779 @@
+:root {
+  --pbg: #171719;
+  --sbg: #010101;
+  --pt: #ccccce;
+  --st: #505050;
+  --pvd: #00be64;
+  --svd: #666666;
+  --tvd: #3a3a3c;
+  --sundays: #fc6c64;
+}
+
+@font-face {
+  font-family: 'SamsungSharpSans';
+  src: url('fonts/samsung/SamsungSharpSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'RobotoR';
+  src: url('fonts/roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'RobotoB';
+  src: url('fonts/roboto/Roboto-Bold.ttf');
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--sbg);
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
+
+/* css for **index.html** starts here */
+
+.sLogo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40%;
+  margin-bottom: 40%;
+  z-index: 1;
+}
+
+.imgS {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box1 {
+  background-color: var(--pbg);
+  width: 85%;
+  height: 120px;
+  border-radius: 30px;
+  margin: auto auto;
+}
+
+.content {
+  font-family: 'RobotoR';
+  font-size: 80%;
+  color: var(--pt);
+  width: 85%;
+  padding: 6%;
+  margin: auto auto;
+}
+
+.bt1,
+.bt2 {
+  cursor: pointer;
+  font-family: 'robotob';
+  font-size: 80%;
+  color: var(--pt);
+  width: 40%;
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+  text-align: right;
+  margin-left: 6%;
+}
+
+.box2 {
+  background-color: var(--pbg);
+  width: 85%;
+  height: 40%;
+  border-radius: 30px;
+  margin: auto auto;
+}
+
+.groupped {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6%;
+  width: 90%;
+}
+
+/* .secB {
+  text-decoration: none;
+  display: inline-block;
+  list-style-type: none;
+  margin-left: -3%;
+}
+
+.green {
+  width: 20%;
+  padding: 1%;
+}
+
+.blue {
+  width: 20%;
+  padding: 1%;
+}
+
+.pink {
+  width: 20%;
+  padding: 1%;
+}
+
+.secBii {
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: -36%;
+  margin-left: 8%;
+}
+
+.step1 {
+  font-family: 'robotob';
+  font-size: 120%;
+  color: var(--pt);
+}
+
+.step2 {
+  font-family: 'robotor';
+  font-size: 80%;
+  color: var(--st);
+  margin-top: -10.4%;
+  margin-left: 16%;
+}
+
+.min1 {
+  font-family: 'robotob';
+  font-size: 120%;
+  color: var(--pt);
+}
+
+.min2 {
+  font-family: 'robotor';
+  font-size: 80%;
+  color: var(--st);
+  margin-top: -10.4%;
+  margin-left: 8%;
+}
+
+.cal1 {
+  font-family: 'robotob';
+  font-size: 120%;
+  color: var(--pt);
+}
+
+.cal2 {
+  font-family: 'robotor';
+  font-size: 80%;
+  color: var(--st);
+  margin-top: -10.4%;
+  margin-left: 8%;
+}
+
+.heart {
+  width: 25%;
+  display: block;
+  margin-left: 51%;
+  margin-top: 4.5%;
+  position: absolute;
+} */
+
+.box3 {
+  background-color: var(--pbg);
+  width: 85%;
+  height: 140px;
+  border-radius: 30px;
+  margin: auto auto;
+}
+
+.iconSetB {
+  cursor: pointer;
+  width: 100%;
+  height: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.walking,
+.wheeling,
+.cycling,
+.more {
+  padding: 5px;
+}
+
+#txtB {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+.txtB1 {
+  font-family: 'RobotoR';
+  font-size: 60%;
+  width: 22%;
+  color: var(--st);
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+}
+
+.txtB2 {
+  font-family: 'RobotoR';
+  font-size: 60%;
+  width: 22%;
+  color: var(--st);
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+}
+
+.txtB3 {
+  font-family: 'RobotoR';
+  font-size: 60%;
+  width: 22%;
+  color: var(--st);
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+}
+
+.txtB4 {
+  font-family: 'RobotoR';
+  font-size: 60%;
+  width: 22%;
+  color: var(--st);
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+}
+/* css for **index.html** ends here */
+
+
+
+
+
+/* css for **wheel.html** starts from here */
+
+.back1 {
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+  margin-top: 6%;
+  margin-left: 3%;
+  color: var(--st);
+  width: 30%;
+  padding-bottom: 3%;
+}
+
+.box4 {
+  background-color: var(--sbg);
+  width: 85%;
+  height: 320px;
+  /* border-radius: 30px; */
+  margin: auto auto;
+}
+
+.whTxt {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: -3.5%;
+  text-decoration: none;
+  color: var(--st);
+  font-family: 'robotor';
+  font-size: 80%;
+  width: 90%;
+}
+
+.sund {
+  color: var(--sundays);
+  display: inline-block;
+  padding: 7.5%;
+  text-align: center;
+}
+
+.week {
+  color: var(--st);
+  display: inline-block;
+  padding: 7.5%;
+  text-align: center;
+}
+
+.line1 {
+  border-top: 2px dotted var(--pvd);
+  width: 70%;
+  margin-top: 20%;
+  position: absolute;
+  margin-left: 7%;
+}
+
+.line2 {
+  border-top: 2px dotted var(--st);
+  width: 70%;
+  margin-top: 41%;
+  position: absolute;
+  margin-left: 7%;
+}
+
+#myChart {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  max-width: 400px;
+}
+
+canvas {
+  width: 10%;
+}
+
+.box5 {
+  background-color: var(--pbg);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 200px;
+  border-radius: 30px;
+}
+
+.num {
+  position: absolute;
+  text-align: center;
+  margin-top: 8%;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.numb {
+  color: var(--pt);
+  font-family: 'robotob';
+  font-size: 160%;
+  text-align: center;
+  margin: auto auto;
+  margin-left: -20%;
+}
+
+.km {
+  color: var(--pt);
+  font-family: 'robotor';
+  font-size: 60%;
+  text-align: center;
+  margin-top: -4%;
+  margin-left: 20%;
+}
+
+.barH {
+  display: block;
+  width: 55%;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col1 {
+  position: absolute;
+  display: block;
+  width: 50%;
+  height: 4%;
+  margin-top: 18%;
+  background-color: var(--tvd);
+  border-radius: 30px;
+}
+
+.colT {
+  width: 90%;
+  text-decoration: none;
+  margin-top: 13%;
+  margin-left: -10%;
+}
+
+.colT1 {
+  display: inline-block;
+  color: var(--st);
+  font-family: 'robotor';
+  text-align: left;
+  font-size: 56%;
+  padding-right: 70%;
+}
+
+.colT2 {
+  display: inline-block;
+  color: var(--st);
+  font-family: 'robotor';
+  font-size: 56%;
+  text-align: right;
+  margin-top: -5%;
+}
+
+.col2 {
+  position: absolute;
+  display: block;
+  width: 20%;
+  height: 4%;
+  margin-top: 18%;
+  background-color: var(--pvd);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.box6 {
+  background-color: var(--pbg);
+  width: 100%;
+  height: 120px;
+  border-radius: 30px;
+  margin: auto auto;
+}
+
+.b6Img {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6.5%;
+}
+
+/* css for **wheel.html** ends here */
+
+
+
+
+
+
+
+/* **media only screen** for specific phone display sizes */
+
+@media only screen and (min-width: 360px) and (max-width: 368px) {
+  .box5 {
+    background-color: var(--pbg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 180px;
+    border-radius: 30px;
+    margin-top: -28%;
+  }
+
+  .num {
+    position: absolute;
+    text-align: center;
+    margin-top: 12%;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .numb {
+    color: var(--pt);
+    font-family: 'robotob';
+    font-size: 160%;
+    text-align: center;
+    margin: auto auto;
+    margin-left: -28%;
+  }
+
+  .km {
+    color: var(--pt);
+    font-family: 'robotor';
+    font-size: 60%;
+    text-align: center;
+    margin-top: -4.5%;
+    margin-left: 24%;
+  }
+
+  .barH {
+    display: block;
+    width: 55%;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .col1 {
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 4%;
+    margin-top:24%;
+    background-color: var(--tvd);
+    border-radius: 30px;
+  }
+
+  .colT {
+    width: 90%;
+    text-decoration: none;
+    margin-top: 17%;
+    margin-left: -10%;
+  }
+
+  .colT1 {
+    display: inline-block;
+    color: var(--st);
+    font-family: 'robotor';
+    text-align: left;
+    font-size: 56%;
+    padding-right: 56%;
+  }
+
+  .colT2 {
+    display: inline-block;
+    color: var(--st);
+    font-family: 'robotor';
+    font-size: 56%;
+    text-align: right;
+    margin-top: -5%;
+  }
+  .col2 {
+    position: absolute;
+    display: block;
+    width: 20%;
+    height: 4%;
+    margin-top: 24%;
+    background-color: var(--pvd);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .b6Img {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+  }
+}
+
+@media only screen and (min-width: 370px) and (max-width: 380px) {
+  .b6Img {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 9%;
+  }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 420px) {
+  .b6Img {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8%;
+  }
+}
+
+@media only screen and (min-width: 370px) and (max-width: 420px) {
+  .box5 {
+    background-color: var(--pbg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 180px;
+    border-radius: 30px;
+    margin-top: -14%;
+  }
+  
+  .num {
+    position: absolute;
+    text-align: center;
+    margin-top: 10%;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .numb {
+    color: var(--pt);
+    font-family: 'robotob';
+    font-size: 160%;
+    text-align: center;
+    margin: auto auto;
+    margin-left: -28%;
+  }
+
+  .km {
+    color: var(--pt);
+    font-family: 'robotor';
+    font-size: 60%;
+    text-align: center;
+    margin-top: -4.5%;
+    margin-left: 24%;
+  }
+
+  .barH {
+    display: block;
+    width: 55%;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .col1 {
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 4%;
+    margin-top:20%;
+    background-color: var(--tvd);
+    border-radius: 30px;
+  }
+
+  .colT {
+    width: 90%;
+    text-decoration: none;
+    margin-top: 17%;
+    margin-left: -10%;
+  }
+
+  .colT1 {
+    display: inline-block;
+    color: var(--st);
+    font-family: 'robotor';
+    text-align: left;
+    font-size: 56%;
+    padding-right: 56%;
+  }
+
+  .colT2 {
+    display: inline-block;
+    color: var(--st);
+    font-family: 'robotor';
+    font-size: 56%;
+    text-align: right;
+    margin-top: -5%;
+  }
+  .col2 {
+    position: absolute;
+    display: block;
+    width: 20%;
+    height: 4%;
+    margin-top: 20%;
+    background-color: var(--pvd);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 440px) {
+  .box5 {
+    background-color: var(--pbg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 200px;
+    border-radius: 30px;
+    margin-top: -14%;
+  }
+
+  .num {
+    position: absolute;
+    text-align: center;
+    margin-top: 9%;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .numb {
+    color: var(--pt);
+    font-family: 'robotob';
+    font-size: 160%;
+    text-align: center;
+    margin: auto auto;
+    margin-left: -24%;
+  }
+
+  .km {
+    color: var(--pt);
+    font-family: 'robotor';
+    font-size: 60%;
+    text-align: center;
+    margin-top: -4%;
+    margin-left: 22%;
+  }
+
+  .barH {
+    display: block;
+    width: 55%;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .col1 {
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 4%;
+    margin-top: 20%;
+    background-color: var(--tvd);
+    border-radius: 30px;
+  }
+
+  .colT {
+    width: 90%;
+    text-decoration: none;
+    margin-top: 17%;
+    margin-left: -10%;
+  }
+
+  .colT1 {
+    display: inline-block;
+    color: var(--st);
+    font-family: 'robotor';
+    text-align: left;
+    font-size: 56%;
+    padding-right: 60%;
+  }
+
+  .colT2 {
+    display: inline-block;
+    color: var(--st);
+    font-family: 'robotor';
+    font-size: 56%;
+    text-align: right;
+    margin-top: -5%;
+  }
+
+  .col2 {
+    position: absolute;
+    display: block;
+    width: 20%;
+    height: 4%;
+    margin-top: 20%;
+    background-color: var(--pvd);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+}
